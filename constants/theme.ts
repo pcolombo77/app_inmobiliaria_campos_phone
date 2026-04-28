@@ -1,29 +1,50 @@
 /**
- * Below are the colors that are used in the app. The colors are defined in the light and dark mode.
- * There are many other ways to style your app. For example, [Nativewind](https://www.nativewind.dev/), [Tamagui](https://tamagui.dev/), [unistyles](https://reactnativeunistyles.vercel.app), etc.
+ * Agricultural Professional Color Palette
+ * Premium, modern design for agricultural software
  */
 
 import { Platform } from 'react-native';
 
-const tintColorLight = '#0a7ea4';
-const tintColorDark = '#fff';
-
 export const Colors = {
   light: {
-    text: '#11181C',
-    background: '#fff',
-    tint: tintColorLight,
-    icon: '#687076',
-    tabIconDefault: '#687076',
-    tabIconSelected: tintColorLight,
+    primary: '#2E7D32',
+    primaryDark: '#1B5E20',
+    primaryLight: '#4CAF50',
+    secondary: '#8D6E63',
+    accent: '#FFA726',
+    background: '#F5F5F5',
+    surface: '#FFFFFF',
+    text: '#212121',
+    textSecondary: '#757575',
+    textLight: '#9E9E9E',
+    border: '#E0E0E0',
+    success: '#43A047',
+    warning: '#FB8C00',
+    error: '#E53935',
+    icon: '#757575',
+    tabIconDefault: '#9E9E9E',
+    tabIconSelected: '#2E7D32',
+    shadow: '#000000',
   },
   dark: {
-    text: '#ECEDEE',
-    background: '#151718',
-    tint: tintColorDark,
-    icon: '#9BA1A6',
-    tabIconDefault: '#9BA1A6',
-    tabIconSelected: tintColorDark,
+    primary: '#4CAF50',
+    primaryDark: '#2E7D32',
+    primaryLight: '#81C784',
+    secondary: '#A1887F',
+    accent: '#FFB74D',
+    background: '#121212',
+    surface: '#1E1E1E',
+    text: '#FFFFFF',
+    textSecondary: '#B0B0B0',
+    textLight: '#808080',
+    border: '#333333',
+    success: '#66BB6A',
+    warning: '#FFA726',
+    error: '#EF5350',
+    icon: '#B0B0B0',
+    tabIconDefault: '#808080',
+    tabIconSelected: '#4CAF50',
+    shadow: '#000000',
   },
 };
 

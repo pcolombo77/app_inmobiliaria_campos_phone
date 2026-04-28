@@ -43,6 +43,11 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "GEMINI_API_KEY": "AIzaSyDUW_kqEGHAZwfv3BenzbHsifOSOCTMTS8",
+      "ASSEMBLYAI_API_KEY": "0526c0e7a46049cbbbc59ff3f385d49c",
+      "MISTRAL_API_KEY": "hQUIGagNZO7qBxz4xC2Oug00TCctOth6"
     }
   }
 }

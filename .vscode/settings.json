@@ -3,5 +3,39 @@
     "source.fixAll": "explicit",
     "source.organizeImports": "explicit",
     "source.sortMembers": "explicit"
-  }
+  },
+  "kiroAgent.configureMCP": "Disabled",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "javascript.tsdk": "node_modules/typescript/lib",
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": false,
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  "telemetry.telemetryLevel": "off",
+  "explorer.confirmDragAndDrop": false,
+  "files.autoSave": "afterDelay",
+  "python.analysis.autoSearchPaths": false,
+  "python.analysis.diagnosticMode": "openFilesOnly",
+  "python.analysis.indexing": false,
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.inlineOutputs": false,
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true,
+    "**/.pytest_cache": true,
+    "**/node_modules": true
+  },
+  "search.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true,
+    "**/node_modules": true
+  },
+  "copilot.chat.enable": true,
+  "git.autofetch": false,
+  "remote.SSH.showLoginTerminal": false,
+  "extensions.autoUpdate": false,
+  "update.mode": "manual"
 }
