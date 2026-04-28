@@ -486,7 +486,7 @@ setReferenceOpp(null);
                 </>
               ) : null}
 
-              {field && (
+              {field && item.tipo === 'Venta' && (
                 <TouchableOpacity 
                   style={[styles.mapButton, { backgroundColor: userColor }]}
                   onPress={() => handleViewOnMap(item)}

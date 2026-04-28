@@ -23,9 +23,17 @@ export default function MapaScreen() {
 
   const loadFields = useCallback(async () => {
     try {
+      const { data: oportunidades } = await supabase
+        .from('oportunidades')
+        .select('id, id_campo, tipo')
+        .eq('tipo', 'Venta');
+
+      const CampoIds = oportunidades?.map(o => o.id_campo).filter(Boolean) || [];
+      
       const { data: campos } = await supabase
         .from('campos')
         .select('*')
+        .in('id', CampoIds)
         .order('created_at', { ascending: false });
 
       const fieldsWithPersonas = await Promise.all(
